@@ -1,0 +1,20 @@
+.inputBox{
+    width:40%;
+}
+
+.btn{
+    width:8%;
+    padding:10 10 10 10;
+    background-color: cadetblue;
+}
+
+
+
+#itm{
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    
+}
