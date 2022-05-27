@@ -20,7 +20,7 @@ function Todo() {
         {
             return olditems.filter((arrelem,index) =>
         {
-            return index != id;
+            return index !== id;
         })
         })
     }
@@ -36,7 +36,7 @@ function Todo() {
            { return (
              <div id='itm' >
             <li >  {e}  </li>
-            <button  onClick={deleteItems} className='btn'>{index}Delete</button>
+            <button  onClick={() => deleteItems(index)} className='btn'>Delete</button>
             </div>
            )
              }
