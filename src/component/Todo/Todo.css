@@ -5,12 +5,14 @@
 .btn{
     width:8%;
     padding:10 10 10 10;
-    background-color: cadetblue;
+    background-color: rgb(183, 183, 209);
 }
 
 
 
 #itm{
+    /* width:50%; */
+    /* text-align: center; */
     display: flex;
     /* flex-direction: column; */
     justify-content: center;
